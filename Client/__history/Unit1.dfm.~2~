@@ -1,0 +1,36 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Client'
+  ClientHeight = 73
+  ClientWidth = 357
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object Button1: TButton
+    Left = 8
+    Top = 37
+    Width = 341
+    Height = 34
+    Caption = 'Connect'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Edit1: TEdit
+    Left = 8
+    Top = 8
+    Width = 341
+    Height = 23
+    TabOrder = 1
+  end
+  object ncClientSource1: TncClientSource
+    EncryptionKey = 'SetEncryptionKey'
+    Host = 'LocalHost'
+    Left = 256
+    Top = 8
+  end
+end
