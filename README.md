@@ -34,7 +34,7 @@
 <h2>Dependencies</h2>
 <ul>
   <li><code>Delphi RAD Studio:</code> Required for compiling and running the project.</li>
-  <li><code>ncSockets library:</code> Essential for socket communication functionality.</li>
+  <li><code>ncSockets library (NetCom7): https://github.com/DelphiBuilder/NetCom7</code> Essential for socket communication functionality.</li>
 </ul>
 
 <h2>License</h2>
